@@ -20,7 +20,7 @@ class Pdf(FPDF):
 
     # content
     def body(self, name):
-        self.cell(0, 10)
+        #self.cell(0, 10)
         # read text file
         with open(name, 'r') as fh:
             txt = fh.read()
